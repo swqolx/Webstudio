@@ -1,0 +1,29 @@
+header{
+    background-color: #FFF;
+a{color: #212121;}
+  
+}
+
+body{
+    background-color: #FFF;
+}
+footer{
+    background-color: #2F303A;;
+
+    a{
+        color:#FFF
+    }
+    
+}
+.textlogo{
+    background-color: #2196F3;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-size: 100%;
+background-image: linear-gradient(90deg,#fff 40%
+);
+font-size: 26px;
+}
+:first {
+    color: #2196F3;
+}
