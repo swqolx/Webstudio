@@ -10,9 +10,6 @@
 
 header {
   background-color: var(--white-color);
-  a {
-    color: #212121;
-  }
 }
 
 body {
@@ -20,10 +17,10 @@ body {
 }
 footer {
   background-color: var(--gray-color);
+}
 
-  a {
-    color: var(--white-color);
-  }
+footer a {
+  color: var(--white-color);
 }
 .logo {
   background-color: var(--blue-color);
@@ -37,26 +34,14 @@ footer {
   color: var(--blue-color);
 }
 
-.header-list {
-  color: var(--black-color);
-
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
-}
 .section-list {
   color: #212121;
 
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
-  letter-spacing: 0.48px;
 }
 
 .footer-list {
@@ -72,22 +57,19 @@ footer {
 .section-h1 {
   color: var(--black-color);
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 36px; /* 200% */
-  letter-spacing: 1.08px;
+  line-height: 36px;
 }
 .section-abzac {
   color: var(--abzac-color);
 
-  font-family: Roboto;
-  font-size: 16px;
+  font-family: "Roboto";
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
-  letter-spacing: 0.48px;
 }
 
 .section-list02 {
@@ -101,8 +83,16 @@ footer {
   padding-top: 50px;
 }
 
+.header-list {
+  color: var(--black-color);
 
-
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
 header {
   width: 1600px;
   height: 80px;
@@ -124,65 +114,49 @@ header .logo {
   margin-right: 344px;
 }
 
+.section-list {
+  display: flex;
 
+  margin: 0 auto;
+  justify-content: space-between;
 
-.main-div {
-  width: 575px;
-  height: 54px;
-  margin-top: 94px;
-  margin-bottom: 34px;
-  margin-left: 512px;
+  align-content: space-between;
+
+  flex-wrap: wrap;
 }
 
-.main-button {
-  padding: 6px 22px;
-  border: var(--background-button);
+button:hover {
+  background-color: var(--blue-color);
 }
 
-.main-button:hover {
-  color: var(--main);
-  background-color: var(--header-email);
+.section-list {
+  display: flex;
+  padding-top: 94px;
+  padding-left: 512px;
+  padding-right: 513px;
 }
 
-.section-list{
-    display: flex;
-    padding-top:94px;
-    padding-left: 512px;
-    padding-right: 513px;
+.section-item1 {
+  width: 73px;
+  height: 38px;
 }
-  
-
-.section-item1{
-    width: 73px;
-height: 38px;
-
+.section-item2 {
+  width: 125px;
+  height: 38px;
 }
-.section-item2{
-    width: 125px;
-height: 38px;
-
-
+.section-item3 {
+  width: 112px;
+  height: 38px;
 }
-.section-item3{
-    width: 112px;
-height: 38px;
-
-
+.section-item4 {
+  width: 103px;
+  height: 38px;
 }
-.section-item4{
-    width: 103px;
-height: 38px;
-
-
-}
-.section-item5{
-    width: 130px;
-height: 38px;
-
-
+.section-item5 {
+  width: 130px;
+  height: 38px;
 }
 footer {
-  width: 1600px;
   height: 252px;
   padding-top: 60px;
   padding-left: 215px;
@@ -197,7 +171,14 @@ footer {
   flex-wrap: wrap;
 }
 
-.section-list li:hover{
-  background-color: var(--blue-color);
+.header-list02 {
+  display: flex;
 }
-
+.header-item4 {
+  padding-right: 50px;
+  color: var(--blue-color);
+}
+.header-list a {
+  font-family: "Roboto";
+  font-weight: 500px;
+}
