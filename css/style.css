@@ -88,5 +88,20 @@ line-height: 30px; /* 187.5% */
 letter-spacing: 0.48px;
     }
 
+    
+    .section-list02{display: flex;
+        width: 1170px;
+        margin: 0 auto;
+        height: 1272px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    align-content: space-between
+    }
+
+
+        .section-list02 li {
+            width: 370px;
+            height: ;
+        }
 
 
